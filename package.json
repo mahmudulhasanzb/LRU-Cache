@@ -1,25 +1,9 @@
 {
-  "name": "lru-cache-js",
+  "name": "lru-cache",
   "version": "1.0.0",
-  "description": "A high-performance Least Recently Used (LRU) Cache in JavaScript with O(1) operations, Doubly Linked List + Hash Map architecture, zero external dependencies, and optional TTL expiration bonus.",
   "type": "module",
-  "main": "src/index.js",
   "scripts": {
-    "start": "node examples/basic-demo.js",
-    "demo:basic": "node examples/basic-demo.js",
-    "demo:ttl": "node examples/ttl-demo.js",
-    "test": "node --test test/lru-cache.test.js",
-    "benchmark": "node examples/benchmark.js"
-  },
-  "keywords": [
-    "lru-cache",
-    "least-recently-used",
-    "cache",
-    "doubly-linked-list",
-    "data-structures",
-    "ttl",
-    "zero-dependencies"
-  ],
-  "author": "Mahmudul Hasan",
-  "license": "MIT"
+    "start": "node demo.js",
+    "test": "node test.js"
+  }
 }
