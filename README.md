@@ -204,9 +204,6 @@ LRU Cache/
 │   ├── lru-cache-output.png  # Captured screenshot of core LRU operations
 │   ├── ttl-bonus-demo-output.png # Captured screenshot of TTL expiration
 │   └── test-suite-output.png # Captured screenshot of test suite results
-├── visualizer/
-│   ├── index.html            # Web-based interactive dashboard & visualizer
-│   └── server.js             # Zero-dependency local visualizer server
 ├── package.json              # NPM metadata and executable scripts
 ├── .gitignore                # Clean Git ignore rules
 └── README.md                 # Complete documentation and architectural analysis
@@ -249,13 +246,6 @@ npm test
 # or
 node --test test/lru-cache.test.js
 ```
-
-### 5. Launch the Visual Dashboard (Optional)
-To interactively inspect the cache, Doubly Linked List pointers, and run demos in your browser:
-```bash
-node visualizer/server.js
-```
-Then open `http://localhost:3456` in your browser.
 
 ---
 
